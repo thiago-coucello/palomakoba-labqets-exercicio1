@@ -71,7 +71,7 @@ public class ExampleUnitTest {
         MobileElement el3 = (MobileElement) driver.findElementById("com.example.conversordemoedas:id/txtValorDolares");
         el3.click();
         
-        Assert.assertEquals(el3.getText(), "U$ 1.8691588785046729E");
+        Assert.assertEquals(el3.getText(), "U$ 1.8691588785046729E-7");
     }
     
     @After
